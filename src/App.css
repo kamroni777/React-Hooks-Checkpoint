@@ -1,0 +1,38 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-movie {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.add-movie form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-movie input,
+.add-movie textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-movie button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-movie button:hover {
+  background-color: #45a049;
+}
